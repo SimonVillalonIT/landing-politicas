@@ -1,20 +1,29 @@
 {
-  "name": "",
+  "name": "cmstest",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-    "dev": "astro dev",
+    "dev": "tinacms dev -c \"astro dev\"",
     "start": "astro dev",
     "build": "astro check && astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/check": "^0.9.4",
     "@astrojs/mdx": "^3.1.8",
     "@astrojs/rss": "^4.0.9",
     "@astrojs/sitemap": "^3.2.1",
+    "@astrojs/tailwind": "^5.1.2",
+    "@fontsource/poppins": "^5.1.0",
     "astro": "^4.16.7",
-    "@astrojs/check": "^0.9.4",
+    "astro-navbar": "^2.3.4",
+    "tailwindcss": "^3.4.14",
+    "tinacms": "^2.3.0",
     "typescript": "^5.6.3"
+  },
+  "devDependencies": {
+    "@tinacms/cli": "^1.6.10",
+    "@types/node": "^22.7.8"
   }
 }
